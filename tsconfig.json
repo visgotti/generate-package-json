@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "module": "commonjs",
+    "lib": ["es6", "DOM"],
+    "target": "es2017",
+    "declaration": true,
+    "noImplicitAny": false,
+    "sourceMap": false
+  },
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules/**/*",
+    "dist"
+  ],
+  "ts-node": {
+    "esm": true, // «———— enabling ESM for ts-node   
+  }, 
+}

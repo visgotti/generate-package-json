@@ -1,0 +1,1 @@
+export { generateNx } from './utils';

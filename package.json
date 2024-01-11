@@ -1,0 +1,19 @@
+{
+  "name": "generate-package-json",
+  "version": "0.0.21",
+  "description": "Generates a package.json file based on file imports",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "mocha --require ts-node/register \"src/**/*.test.ts\""
+  },
+  "author": "visgotti",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/mocha": "^10.0.6",
+    "assert": "^2.1.0",
+    "mocha": "^10.2.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
